@@ -1,0 +1,92 @@
+
+#home
+{
+position: relative;
+width: 480px;
+float: left;
+}
+
+#home h3
+{
+position: relative;
+top: 4px;
+font-size: 18px;
+line-height: 25px;
+color: #656551;
+letter-spacing: -1px;
+background: url('../images/a22.gif') bottom repeat-x;
+padding: 0px 0px 10px 15px;
+margin-bottom: 20px;
+}
+
+#home .content
+{
+padding: 0px 15px 0px 15px;
+margin-bottom: 20px;
+}
+
+#home .post
+{
+margin-bottom: 30px;
+}
+
+#home .post .header
+{
+position: relative;
+}
+
+#home .post .date
+{
+position: absolute;
+right: 15px;
+top: 0px;
+line-height: 35px;
+color: #AFAFA4;
+font-weight: bold;
+}
+
+#home .post .content
+{
+margin-bottom: 0px;
+}
+
+#home .post .footer
+{
+position: relative;
+top: -10px;
+background: url('../images/a33.gif') repeat-x;
+height: 64px;
+}
+
+#home .post .footer ul
+{
+list-style: none;
+position: absolute;
+right: 15px;
+bottom: 15px;
+}
+
+#home .post .footer ul li
+{
+display: inline;
+line-height: 14px;
+padding-left: 17px;
+margin-left: 25px;
+background-repeat: no-repeat;
+background-position: 0px 2px;
+}
+
+#home .post .footer ul li.printerfriendly
+{
+background-image: url('../images/a41.gif');
+}
+
+#home .post .footer ul li.comments
+{
+background-image: url('../images/a36.gif');
+}
+
+#home .post .footer ul li.readmore
+{
+background-image: url('../images/a38.gif');
+}
