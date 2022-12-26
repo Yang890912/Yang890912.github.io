@@ -7,6 +7,7 @@
 
 @import "home.css";
 @import "member.css";
+@import "song.css";
 
 *
 {
@@ -61,8 +62,18 @@ img.picB
 position: relative;
 top: -2px;
 background: url('../images/a26.gif') no-repeat;
-width: 146px;
+width: 143.25px;
 height: 75px;
+padding: 7px;
+}
+
+img.picC
+{
+position: relative;
+top: -2px;
+/* background: url('../images/a26.gif') no-repeat; */
+width: 100px;
+height: 100px;
 padding: 7px;
 }
 
@@ -211,14 +222,15 @@ color: #fff;
 font-weight: bold;
 }
 
-/* 
+
 #menu ul li a:hover
 {
-background: #fff url('../images/a18.gif') repeat-x top;
-color: #4A4A24;
+/* background: #fff url('../images/a18.gif') repeat-x top; */
+color: #ff69b4;
 text-decoration: none;
+font-size: 19px;
 } 
-*/
+
 
 #date
 {
